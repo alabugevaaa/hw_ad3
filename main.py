@@ -18,7 +18,7 @@ class Contact:
                f'В избранных: {"Да" if self.favourite else "Нет"}\nДополнительная информация:\n{inf}'
 
 
-class PhoneBook(Contact):
+class PhoneBook:
 
     def __init__(self, name):
         self.name = name
